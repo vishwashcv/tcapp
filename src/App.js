@@ -59,13 +59,13 @@ function App() {
                           <div className='flex'>
                           <button className='counter-button' onClick={ () => {
                             setCounter(counter+1); 
-                          }}>Increament</button>
+                          }}>+</button>
                           <button className='counter-button' onClick={ () => {
                             setCounter(0); 
                           }}>Reset</button>
                           <button className='counter-button' onClick={ () => {
                             setCounter(counter-1); 
-                          }}>Decreament</button>
+                          }}>-</button>
                           </div>
               </div>
       </div>
